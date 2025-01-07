@@ -7,3 +7,14 @@ body {
   background-color: grey;
 }
   
+h3 {
+  color: green;
+}
+
+.color-blue {
+  color: blue;
+}
+
+#color-red {
+  color: red;
+}
