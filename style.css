@@ -18,3 +18,8 @@ h3 {
 #color-red {
   color: red;
 }
+
+h5 { 
+  cursor: pointer;
+  user-select: none;
+}

@@ -7,4 +7,7 @@ function obtenerColorAleatorio(listaColores) {
 }
 
 const cambioColor = document.getElementsByTagName("h5");
-console.log(cambioColor)
+
+cambioColor[0].addEventListener("click", function(){
+    cambioColor[0].style.color = obtenerColorAleatorio(colores);
+})
